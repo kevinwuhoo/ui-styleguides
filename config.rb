@@ -29,3 +29,7 @@ configure :build do
   # Use relative URLs
   # activate :relative_assets
 end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+end
