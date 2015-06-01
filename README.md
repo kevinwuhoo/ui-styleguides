@@ -1,6 +1,6 @@
-# Styleguided
+# UI Styleguides
 
-A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/styleguided/](http://kevinwuhoo.github.io/styleguided/). Styleguides contain some combination of UI components, design patterns, icon sets, JS components, and brand guidelines.
+A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/ui-styleguides/](http://kevinwuhoo.github.io/ui-styleguides/). Selected styleguides contain some combination of UI components, design patterns, icon sets, JS components, and brand guidelines.
 
 
 ## Todos
@@ -10,7 +10,7 @@ A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/styleg
 
 ## Contributing
 
-Styleguided.io is a static site generated using [middleman](https://middlemanapp.com/), a ruby gem. You'll need ruby, rubygems, and bundler to install middleman and other dependencies. Selenium (specifically [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)) is used to screenshot the styleguides.
+This list of UI styleguides is a static site generated using [middleman](https://middlemanapp.com/), a ruby gem. You'll need ruby, rubygems, and bundler to install middleman and other dependencies. Selenium (specifically [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)) is used to screenshot the styleguides.
 
 To suggest an additional styleguide, either open an issue with the url of the site, or create a pull request by adding the following fields in `data/styleguides.yml`:
   * name (site or company name)

@@ -26,7 +26,7 @@ task :fill_data do
   styleguides.each do |styleguide|
     styleguide['filename'] = styleguide['name'].downcase.gsub(/\W/, '_')
     styleguide['classname'] = styleguide['name'].downcase.gsub(/\W/, '-')
-    styleguide['img_path'] = "/styleguided/images/#{styleguide['filename']}.png"
+    styleguide['img_path'] = "/ui-styleguides/images/#{styleguide['filename']}.png"
   end
 
   File.open('data/styleguides.yml', 'w') { |f| f.write styleguides.to_yaml }
