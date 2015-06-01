@@ -1,6 +1,6 @@
 # Styleguided
 
-A curated list of UI styleguides deployed to [styleguided.io](http://styleguided.io). Styleguides contain some combination of UI components, design patterns, icon sets, JS components, and brand guidelines.
+A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/styleguided/](http://kevinwuhoo.github.io/styleguided/). Styleguides contain some combination of UI components, design patterns, icon sets, JS components, and brand guidelines.
 
 
 ## Todos

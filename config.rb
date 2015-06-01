@@ -27,7 +27,7 @@ configure :build do
   activate :minify_javascript
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 end
 
 activate :deploy do |deploy|
