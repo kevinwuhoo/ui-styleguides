@@ -18,6 +18,10 @@ task :screenshot_guides do
   end
 
   driver.quit
+
+  print "Resizing images wuth ImageMagick"
+  `mogrify -resize 1200x source/images/*png`
+  puts " -- Success"
 end
 
 task :fill_data do
