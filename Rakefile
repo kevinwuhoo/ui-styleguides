@@ -44,9 +44,9 @@ task :generate_readme do
                ' Selected styleguides contain some combination of '
 
   descriptions = YAML.load_file('data/styleguides.yml').map do |guide|
-    guide['description'].split(',').map(&:chomp) if guide['description']
+    guide['description'].split(',').map(&:strip) if guide['description']
   end
-  descriptions = descriptions.flatten.compact.uniq.join(', ')
+  descriptions = descriptions.flatten.compact.uniq.sort.join(', ')
 
   readme.puts "#{descriptions}.\n\n"
 

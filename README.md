@@ -1,7 +1,6 @@
 # UI Styleguides
-A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/ui-styleguides/](http://kevinwuhoo.github.io/ui-styleguides/). Selected styleguides contain some combination of UI Components,  Design Patterns,  Icons, UI & JS Components.
+A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/ui-styleguides/](http://kevinwuhoo.github.io/ui-styleguides/). Selected styleguides contain some combination of Design Patterns, Icons, UI & JS Components, UI Components.
 
-* [Heroku](https://purple.herokuapp.com/) - UI Components, Design Patterns
 * [Disqus](https://disqus.com/pages/style-guide/) - UI Components, Icons
 * [Salesforce](http://sfdc-styleguide.herokuapp.com/) - UI Components, Design Patterns, Icons
 * [MailChimp](http://ux.mailchimp.com/patterns) - UI Components, Design Patterns, Icons
@@ -15,6 +14,7 @@ A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/ui-sty
 * [Atlassian](https://design.atlassian.com/2.1/product/) - UI & JS Components, Design Patterns, Icons
 * [Yelp](http://www.yelp.com/styleguide) - UI Components
 * [Buffer](https://bufferapp.com/style-guide) - UI Components, Design Patterns
+* [Heroku](https://purple.herokuapp.com/) - UI Components, Design Patterns
 * [A List Apart](http://patterns.alistapart.com/) - UI Components
 * [BBC](http://www.bbc.co.uk/gel) - UI Components, Design Patterns
 * [Github](http://primercss.io/) - UI Components
