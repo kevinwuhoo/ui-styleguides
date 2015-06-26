@@ -3,124 +3,106 @@
   url: https://purple.herokuapp.com/
   color: "#79589F"
   description: UI Components, Design Patterns
-  filename: heroku
-  img_path: "/ui-styleguides/images/heroku.png"
+  filename: heroku.png
   classname: heroku
 - name: Disqus
   url: https://disqus.com/pages/style-guide/
   color: "#2E9FFF"
   description: UI Components, Icons
-  filename: disqus
-  img_path: "/ui-styleguides/images/disqus.png"
+  filename: disqus.png
   classname: disqus
 - name: Salesforce
   url: http://sfdc-styleguide.herokuapp.com/
   color: "#2A94D6"
   description: UI Components, Design Patterns, Icons
-  filename: salesforce
-  img_path: "/ui-styleguides/images/salesforce.png"
+  filename: salesforce.png
   classname: salesforce
 - name: MailChimp
   url: http://ux.mailchimp.com/patterns
   color: "#2C9AB7"
   description: UI Components, Design Patterns, Icons
-  filename: mailchimp
-  img_path: "/ui-styleguides/images/mailchimp.png"
+  filename: mailchimp.png
   classname: mailchimp
 - name: Lonely Planet
   url: http://rizzo.lonelyplanet.com/styleguide/design-elements/colours
   color: "#297CBB"
   description: UI & JS Components, Design Patterns, Icons
-  filename: lonely_planet
-  img_path: "/ui-styleguides/images/lonely_planet.png"
+  filename: lonely_planet.png
   classname: lonely-planet
 - name: FontShop
   url: https://www.fontshop.com/styleguide/globals
   color: "#262626"
   description: UI Components, Design Patterns, Icons
-  filename: fontshop
-  img_path: "/ui-styleguides/images/fontshop.png"
+  filename: fontshop.png
   classname: fontshop
 - name: NYCTA Graphics Standard Manual
   url: http://thestandardsmanual.com/
   color: "#EE4411"
-  filename: nycta_graphics_standard_manual
-  img_path: "/ui-styleguides/images/nycta_graphics_standard_manual.png"
+  filename: nycta_graphics_standard_manual.png
   classname: nycta-graphics-standard-manual
 - name: gov.uk
   url: http://govuk-elements.herokuapp.com/
   color: "#0B0C0C"
   description: UI Components, Design Patterns
-  filename: gov_uk
-  img_path: "/ui-styleguides/images/gov_uk.png"
+  filename: gov_uk.png
   classname: gov-uk
 - name: Ubuntu
   url: https://design.ubuntu.com/
   color: "#DD4814"
   description: UI & JS Components, Design Patterns
-  filename: ubuntu
-  img_path: "/ui-styleguides/images/ubuntu.png"
+  filename: ubuntu.png
   classname: ubuntu
 - name: Code for America
   url: http://style.codeforamerica.org/
   color: "#CF1B41"
   description: UI Components, Design Patterns, Icons
-  filename: code_for_america
-  img_path: "/ui-styleguides/images/code_for_america.png"
+  filename: code_for_america.png
   classname: code-for-america
 - name: Mapbox
   url: https://www.mapbox.com/base/
   color: "#3BB2D0"
   description: UI Components, Design Patterns, Icons
-  filename: mapbox
-  img_path: "/ui-styleguides/images/mapbox.png"
+  filename: mapbox.png
   classname: mapbox
 - name: Atlassian
   url: https://design.atlassian.com/2.1/product/
   color: "#205081"
   description: UI & JS Components, Design Patterns, Icons
-  filename: atlassian
-  img_path: "/ui-styleguides/images/atlassian.png"
+  filename: atlassian.png
   classname: atlassian
 - name: Yelp
   url: http://www.yelp.com/styleguide
   color: "#C41200"
   description: UI Components
-  filename: yelp
-  img_path: "/ui-styleguides/images/yelp.png"
+  filename: yelp.png
   classname: yelp
 - name: Buffer
   url: https://bufferapp.com/style-guide
   color: "#323B43"
   description: UI Components, Design Patterns
-  filename: buffer
-  img_path: "/ui-styleguides/images/buffer.png"
+  filename: buffer.png
   classname: buffer
 - name: A List Apart
   url: http://patterns.alistapart.com/
   color: "#222"
   description: UI Components
-  filename: a_list_apart
-  img_path: "/ui-styleguides/images/a_list_apart.png"
+  filename: a_list_apart.png
   classname: a-list-apart
 - name: BBC
   url: http://www.bbc.co.uk/gel
   color: "#333"
   description: UI Components, Design Patterns
-  filename: bbc
-  img_path: "/ui-styleguides/images/bbc.png"
+  filename: bbc.png
   classname: bbc
 - name: Github
   url: http://primercss.io/
   color: "#222"
   description: UI Components
-  filename: github
-  img_path: "/ui-styleguides/images/github.png"
+  filename: github.png
   classname: github
 - name: Starbucks
   url: http://www.starbucks.com/static/reference/styleguide/
   color: "#006341"
   description: UI & JS Components
-  filename: starbucks
-  img_path: "/ui-styleguides/images/starbucks.png"
+  filename: starbucks.png
   classname: starbucks

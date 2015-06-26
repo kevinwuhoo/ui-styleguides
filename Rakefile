@@ -12,7 +12,7 @@ task :screenshot_guides do
     $stdout.flush
 
     driver.navigate.to styleguide['url']
-    driver.save_screenshot("source/images/#{styleguide['filename']}.png")
+    driver.save_screenshot("source/images/#{styleguide['filename']}")
 
     puts " -- Success"
   end
@@ -28,9 +28,8 @@ task :fill_data do
   styleguides = YAML.load_file('data/styleguides.yml')
 
   styleguides.each do |styleguide|
-    styleguide['filename'] = styleguide['name'].downcase.gsub(/\W/, '_')
+    styleguide['filename'] = styleguide['name'].downcase.gsub(/\W/, '_') + '.png'
     styleguide['classname'] = styleguide['name'].downcase.gsub(/\W/, '-')
-    styleguide['img_path'] = "/ui-styleguides/images/#{styleguide['filename']}.png"
   end
 
   File.open('data/styleguides.yml', 'w') { |f| f.write styleguides.to_yaml }

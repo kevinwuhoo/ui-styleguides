@@ -27,7 +27,7 @@ section.section-full-height.first-section.text-center
 
 - data.styleguides.each do |styleguide|
   a href="#{styleguide['url']}" target='_blank'
-    section.section-full-height.text-center id=styleguide['classname'] style="background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.8)), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(#{styleguide['img_path']})"
+    section.section-full-height.text-center id=styleguide['classname'] style="background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.8)), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(#{image_path(styleguide['filename'])})"
       .col-md-offset-2.col-md-10.text-center.text-v-center
         .section-site-name= styleguide['name']
         br

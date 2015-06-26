@@ -27,11 +27,11 @@
           .img-overlay-wrapper
             .site-name.text-center= sg1['name']
             div.img-overlay
-            img.img-responsive src="#{sg1['img_path']}"
+            img.img-responsive src="#{image_path(sg1['filename'])}"
       - if sg2
         a href='#{sg1['url']}'
           .col-md-6.make-row-margins-even
             .img-overlay-wrapper
               .site-name.text-center= sg2['name']
               div.img-overlay
-              img.img-responsive src="#{sg2['img_path']}"
+              img.img-responsive src="#{image_path(sg2['filename'])}"
