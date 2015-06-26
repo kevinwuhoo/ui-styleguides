@@ -31,3 +31,24 @@ task :fill_data do
 
   File.open('data/styleguides.yml', 'w') { |f| f.write styleguides.to_yaml }
 end
+
+task :generate_readme do
+  readme = File.open('README.md', 'w')
+  readme.puts '# UI Styleguides'
+  readme.write 'A curated list of UI styleguides deployed to '\
+               '[http://kevinwuhoo.github.io/ui-styleguides/]'\
+               '(http://kevinwuhoo.github.io/ui-styleguides/).'\
+               ' Selected styleguides contain some combination of '
+
+  descriptions = YAML.load_file('data/styleguides.yml').map do |guide|
+    guide['description'].split(',').map(&:chomp) if guide['description']
+  end
+  descriptions = descriptions.flatten.compact.uniq.join(', ')
+
+  readme.puts "#{descriptions}.\n\n"
+
+  YAML.load_file('data/styleguides.yml').each do |guide|
+    readme.puts "* [#{guide['name']}](#{guide['url']}) - #{guide['description']}"
+  end
+
+end

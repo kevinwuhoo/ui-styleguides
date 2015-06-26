@@ -18,9 +18,10 @@ To suggest an additional styleguide, either open an issue with the url of the si
   * color (primary brand color)
   * description (list of attributes; any combination of UI Components, JS Components, Design Patterns, and Icons)
 
-Then run the following rake tasks to fill in remaining required fields and re-screenshot all sites:
+Then run the following rake tasks to fill in remaining required fields, re-screenshot all sites, and regenerate the readme:
 
 ```
 bundle exec rake fill_data
 bundle exec rake screenshot_guides
+bundle exec rake generate_readme
 ```
