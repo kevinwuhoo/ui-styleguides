@@ -1,10 +1,4 @@
 ---
-- name: Heroku
-  url: https://purple.herokuapp.com/
-  color: "#79589F"
-  description: UI Components, Design Patterns
-  filename: heroku.png
-  classname: heroku
 - name: Disqus
   url: https://disqus.com/pages/style-guide/
   color: "#2E9FFF"
@@ -82,6 +76,12 @@
   description: UI Components, Design Patterns
   filename: buffer.png
   classname: buffer
+- name: Heroku
+  url: https://purple.herokuapp.com/
+  color: "#79589F"
+  description: UI Components, Design Patterns
+  filename: heroku.png
+  classname: heroku
 - name: A List Apart
   url: http://patterns.alistapart.com/
   color: "#222"
