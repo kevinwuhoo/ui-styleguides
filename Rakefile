@@ -1,5 +1,6 @@
 require 'yaml'
 require "selenium-webdriver"
+require 'middleman-gh-pages'
 
 task :screenshot_guides do
   ENV['webdriver.chrome.driver'] = 'bin/chromedriver'
