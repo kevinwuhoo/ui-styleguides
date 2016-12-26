@@ -1,0 +1,11 @@
+- name: Disqus
+  url: https://disqus.com/pages/style-guide/
+  reason: Broken links, incomplete.
+
+- name: Heroku
+  url: https://purple.herokuapp.com
+  reason: Publicly unaccessible
+
+- name: Centers for Medicare & Medicaid Services
+  url: http://assets.cms.gov/resources/framework/3.0/Pages/
+  reason: Just a bootstrap theme, looks less modern than bs its self.
