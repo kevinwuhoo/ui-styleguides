@@ -4,7 +4,7 @@ require 'middleman-gh-pages'
 
 # copy pasted from config.rb
 def filenameize(name)
-  "images/#{name.downcase.gsub(/[^0-9A-Za-z.\-]/, '_')}.png"
+  "images/#{name.downcase.gsub(/[^0-9A-Za-z\-]/, '_')}.png"
 end
 
 task :screenshot_guides do
