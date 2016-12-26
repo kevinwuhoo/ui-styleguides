@@ -75,7 +75,7 @@ GEM
       sass (>= 3.4)
       tilt (~> 1.4.1)
       uglifier (~> 2.6)
-    middleman-gh-pages (0.0.3)
+    middleman-gh-pages (0.3.1)
       rake (> 0.9.3)
     middleman-livereload (3.4.6)
       em-websocket (~> 0.5.1)
@@ -100,7 +100,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.4.2)
+    rake (12.0.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -137,3 +137,6 @@ DEPENDENCIES
   sass
   selenium-webdriver
   slim
+
+BUNDLED WITH
+   1.13.7
