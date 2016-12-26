@@ -1,102 +1,100 @@
 ---
-- name: Disqus
-  url: https://disqus.com/pages/style-guide/
-  color: "#2E9FFF"
-  description: UI Components, Icons
-  filename: disqus.png
-  classname: disqus
+
+
+- name: Uber
+  url: https://brand.uber.com/
+  screenshot_delay: 2
+  filename: Uber
+  color: "#09091A"
+  description: >
+    A really over the top brand guideline. But actually quite beautiful.
+
 - name: Salesforce
-  url: http://sfdc-styleguide.herokuapp.com/
+  url: https://www.lightningdesignsystem.com/
   color: "#2A94D6"
-  description: UI Components, Design Patterns, Icons
-  filename: salesforce.png
-  classname: salesforce
+  description: >
+    A comprehensive design system inline with "Salesforce Lightning principles".
+    Includes accessible markup, CSS, compnents, and even an npm package.
+
 - name: MailChimp
   url: http://ux.mailchimp.com/patterns
   color: "#2C9AB7"
   description: UI Components, Design Patterns, Icons
-  filename: mailchimp.png
-  classname: mailchimp
+
 - name: Lonely Planet
   url: http://rizzo.lonelyplanet.com/styleguide/design-elements/colours
   color: "#297CBB"
   description: UI & JS Components, Design Patterns, Icons
-  filename: lonely_planet.png
-  classname: lonely-planet
+
 - name: FontShop
   url: https://www.fontshop.com/styleguide/globals
   color: "#262626"
   description: UI Components, Design Patterns, Icons
-  filename: fontshop.png
-  classname: fontshop
+
 - name: NYCTA Graphics Standard Manual
   url: http://thestandardsmanual.com/
   color: "#EE4411"
-  filename: nycta_graphics_standard_manual.png
-  classname: nycta-graphics-standard-manual
+
 - name: gov.uk
   url: http://govuk-elements.herokuapp.com/
   color: "#0B0C0C"
   description: UI Components, Design Patterns
-  filename: gov_uk.png
-  classname: gov-uk
+
 - name: Ubuntu
   url: https://design.ubuntu.com/
   color: "#DD4814"
   description: UI & JS Components, Design Patterns
-  filename: ubuntu.png
-  classname: ubuntu
+
 - name: Code for America
   url: http://style.codeforamerica.org/
   color: "#CF1B41"
   description: UI Components, Design Patterns, Icons
-  filename: code_for_america.png
-  classname: code-for-america
+
 - name: Mapbox
   url: https://www.mapbox.com/base/
   color: "#3BB2D0"
-  description: UI Components, Design Patterns, Icons
-  filename: mapbox.png
-  classname: mapbox
+  description: >
+    A good list of components with tutorials about how to use them to build
+    entire pages. Has some animated javascript components.
+
 - name: Atlassian
-  url: https://design.atlassian.com/2.1/product/
+  url: https://design.atlassian.com/product/
   color: "#205081"
-  description: UI & JS Components, Design Patterns, Icons
-  filename: atlassian.png
-  classname: atlassian
+  description: >
+    An excellent, comprehensive set of components and patterns with detailed
+    problem statements, usages, and corner cases.
+
 - name: Yelp
   url: http://www.yelp.com/styleguide
   color: "#C41200"
   description: UI Components
-  filename: yelp.png
-  classname: yelp
+
 - name: Buffer
   url: https://bufferapp.com/style-guide
   color: "#323B43"
-  description: UI Components, Design Patterns
-  filename: buffer.png
-  classname: buffer
+  description: A minimal set of components.
+
 - name: A List Apart
   url: http://patterns.alistapart.com/
   color: "#222"
-  description: UI Components
-  filename: a_list_apart.png
-  classname: a-list-apart
+  description: >
+    A fairly comprehensive list of patterns used on their site.
+
 - name: BBC
   url: http://www.bbc.co.uk/gel
   color: "#333"
-  description: UI Components, Design Patterns
-  filename: bbc.png
-  classname: bbc
+  description: >
+    An out of date list of elements and patterns.
+
 - name: Github
-  url: http://primercss.io/
+  url: http://primercss.io/scaffolding/
   color: "#222"
-  description: UI Components
-  filename: github.png
-  classname: github
+  description: >
+    Mostly just bootstrap 2.
+
 - name: Starbucks
   url: http://www.starbucks.com/static/reference/styleguide/
   color: "#006341"
-  description: UI & JS Components
-  filename: starbucks.png
-  classname: starbucks
+  description: >
+    An out of date framework with fairly comprehensive elements, patterns, js
+    components, and layouts.

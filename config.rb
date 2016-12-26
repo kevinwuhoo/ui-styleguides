@@ -29,3 +29,9 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 end
+
+helpers do
+  def filenameize(name)
+    "images/#{name.downcase.gsub(/[^0-9A-Za-z.\-]/, '_')}.png"
+  end
+end

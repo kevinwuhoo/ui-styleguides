@@ -2,8 +2,13 @@ require 'yaml'
 require "selenium-webdriver"
 require 'middleman-gh-pages'
 
+# copy pasted from config.rb
+def filenameize(name)
+  "images/#{name.downcase.gsub(/[^0-9A-Za-z.\-]/, '_')}.png"
+end
+
 task :screenshot_guides do
-  ENV['webdriver.chrome.driver'] = 'bin/chromedriver'
+  #ENV['webdriver.chrome.driver'] = 'bin/chromedriver'
   driver = Selenium::WebDriver.for :chrome
   driver.manage.window.resize_to(1440, 900)
 
@@ -12,8 +17,11 @@ task :screenshot_guides do
     print "Screenshotting #{styleguide['name']} (#{styleguide['url']})"
     $stdout.flush
 
+    filename = filenameize(styleguide['name'])
+
     driver.navigate.to styleguide['url']
-    driver.save_screenshot("source/images/#{styleguide['filename']}")
+    sleep(styleguide['screenshot_delay']) if styleguide['screenshot_delay']
+    driver.save_screenshot("source/#{filename}")
 
     puts " -- Success"
   end
