@@ -87,10 +87,10 @@
     An out of date list of elements and patterns.
 
 - name: Github
-  url: http://primercss.io/scaffolding/
-  color: "#222"
+  url: https://primer.style
+  color: "#24292e"
   description: >
-    Mostly just bootstrap 2.
+    Resources, tooling, and design guidelines for building interfaces with GitHub’s design system.
 
 - name: Starbucks
   url: http://www.starbucks.com/static/reference/styleguide/
