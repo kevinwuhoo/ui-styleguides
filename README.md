@@ -1,4 +1,7 @@
 # UI Styleguides
+
+Back when I started this, design systems and styleguides were an up-and-coming concept. They're very commonplace now. I'll leave this repo as a historical marker but won't be upating it in the future.
+
 A curated list of UI styleguides deployed to [http://kevinwuhoo.github.io/ui-styleguides/](http://kevinwuhoo.github.io/ui-styleguides/). Selected styleguides contain some combination of Design Patterns, Icons, UI & JS Components, UI Components.
 
 * [Disqus](https://disqus.com/pages/style-guide/) - UI Components, Icons
